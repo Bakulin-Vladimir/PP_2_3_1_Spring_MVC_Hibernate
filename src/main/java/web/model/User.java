@@ -1,21 +1,33 @@
 package web.model;
 
+
+import org.hibernate.validator.constraints.Email;
+import org.hibernate.validator.constraints.NotEmpty;
+
 import javax.persistence.*;
+import javax.validation.constraints.Min;
+import javax.validation.constraints.Size;
+
 
 @Entity
 @Table(name = "Users")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
+    @Column(name = "id", nullable = false)
     private Long id;
-    @Column(name = "name")
+    @NotEmpty(message = "Имя не должно быть пустым")
+    @Size(min = 2, max = 25, message = "Имя должно быть в диапазоне от 2 до 25 символов")
+    @Column(name = "name", nullable = false)
     private String name;
-    @Column(name = "department")
+    @Column(name = "department", nullable = false)
     private String department;
-    @Column(name = "email")
+    @NotEmpty(message = "Поле Email не должно быть пустым")
+    @Email(message = "Email должен быть валидным")
+    @Column(name = "email", nullable = false)
     private String email;
-    @Column(name = "age")
+    @Min(value = 0, message = "Возраст должен быть больше 0")
+    @Column(name = "age", nullable = false)
     private byte age;
 
     public User() {

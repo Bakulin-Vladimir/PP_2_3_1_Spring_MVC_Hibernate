@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
-    <title>User</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Users</title>
 </head>
 <body>
-<H2>Users</H2>
+<H2>Пользователи</H2>
 <table th:border="0">
     <thead>
     <tr>
@@ -26,16 +26,16 @@
         <td th:text="${User.getEmail()}"/>
         <td>
             <form method="UPDATE" th:action="@{/users/{id}/edit(id=${User.getId()})}">
-                <input type="submit" value="Update"/>
+                <input type="submit" value="Обновить"/>
             </form>
             <form th:method="DELETE" th:action="@{/users/{id}(id=${User.getId()})}">
-                <input type="submit" value="Delete"/>
+                <input type="submit" value="Удалить"/>
             </form>
         </td>
     </tr>
     </tbody>
 </table>
 <br/>
-<input type="submit" value="Add_User" onclick="window.location.href='/users/new'"/>
+<input type="submit" value="Добавить пользователя" onclick="window.location.href='/users/new'"/>
 </body>
 </html>
