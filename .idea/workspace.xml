@@ -11,8 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="150411f7-0da1-40ba-a1fd-e4b835147a95" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/dao/UserDaoImp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/service/UserServiceImp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/JavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/JavaConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +65,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/IdeaProjects/PP_2_3_1_Spring_MVC_Hibernate&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -198,10 +198,36 @@
       <workItem from="1676593785663" duration="2048000" />
       <workItem from="1676595852826" duration="1837000" />
       <workItem from="1676615512543" duration="1629000" />
+      <workItem from="1676617155021" duration="158000" />
+      <workItem from="1676707613048" duration="3591000" />
+      <workItem from="1676731229821" duration="1594000" />
+      <workItem from="1676750686553" duration="1401000" />
+      <workItem from="1676790698125" duration="22000" />
+      <workItem from="1676892147858" duration="1275000" />
+      <workItem from="1676900071695" duration="1929000" />
+      <workItem from="1676987942229" duration="1071000" />
+      <workItem from="1677137194136" duration="212000" />
+      <workItem from="1677511333939" duration="213000" />
+      <workItem from="1677517834618" duration="184000" />
+      <workItem from="1677834113714" duration="1163000" />
+      <workItem from="1678418710348" duration="958000" />
+      <workItem from="1678421347366" duration="601000" />
+      <workItem from="1678478217925" duration="373000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
