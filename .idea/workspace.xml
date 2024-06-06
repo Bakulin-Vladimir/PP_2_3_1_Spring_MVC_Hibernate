@@ -11,7 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="150411f7-0da1-40ba-a1fd-e4b835147a95" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/web/config/JavaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/web/config/JavaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/users.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/webapp/WEB-INF/pages/users.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,13 +42,6 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
-  </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
   </component>
   <component name="ProjectId" id="2LmyjaqhewAdqhiNCkxjBXl2RH6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -212,7 +205,22 @@
       <workItem from="1677834113714" duration="1163000" />
       <workItem from="1678418710348" duration="958000" />
       <workItem from="1678421347366" duration="601000" />
-      <workItem from="1678478217925" duration="373000" />
+      <workItem from="1678478217925" duration="567000" />
+      <workItem from="1679662834835" duration="197000" />
+      <workItem from="1680057608110" duration="3177000" />
+      <workItem from="1680118953370" duration="353000" />
+      <workItem from="1680182545511" duration="7107000" />
+      <workItem from="1680260584316" duration="965000" />
+      <workItem from="1680269330007" duration="2524000" />
+      <workItem from="1680621109667" duration="623000" />
+      <workItem from="1680776042451" duration="2680000" />
+      <workItem from="1681175099281" duration="670000" />
+      <workItem from="1681308846782" duration="599000" />
+      <workItem from="1682313904913" duration="79000" />
+      <workItem from="1683454049233" duration="165000" />
+      <workItem from="1683721948883" duration="3528000" />
+      <workItem from="1685699798441" duration="29000" />
+      <workItem from="1717252589451" duration="907000" />
     </task>
     <servers />
   </component>

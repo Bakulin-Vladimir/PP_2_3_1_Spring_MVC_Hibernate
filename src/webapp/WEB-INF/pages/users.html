@@ -26,10 +26,10 @@
         <td th:text="${User.getEmail()}"/>
         <td>
             <form method="UPDATE" th:action="@{/users/{id}/edit(id=${User.getId()})}">
-                <input type="submit" value="Обновить"/>
+                <input th:type="submit" th:value="Обновить"/>
             </form>
             <form th:method="DELETE" th:action="@{/users/{id}(id=${User.getId()})}">
-                <input type="submit" value="Удалить"/>
+                <input th:type="submit" th:value="Удалить"/>
             </form>
         </td>
     </tr>
